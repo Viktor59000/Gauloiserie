@@ -1,0 +1,17 @@
+.site-banner {
+    background: linear-gradient(45deg, #FF6B6B, #A0522D);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: "Fredericka the Great", serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
